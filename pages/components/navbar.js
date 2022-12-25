@@ -12,7 +12,7 @@ function NavBar() {
   }
 
   return(
-    <div className='flex justify-between items-center h-24 text-white max-w-[80%] mx-auto font-serif'>
+    <div className='flex justify-between items-center h-24 text-white px-10 mx-auto font-serif '>
 
         <h1 className='md:w-full text-4xl font-bold text-customGreen uppercase '><Link href="/">Christian Paz</Link></h1>
           <ul className=' uppercase space-x-10 hidden md:flex text-3xl'>
@@ -26,7 +26,7 @@ function NavBar() {
         {!nav ? <AiOutlineMenu size={30}/> : <AiOutlineClose size={30}/> }
       </div>
 
-      <div className={nav ? 'fixed left-0 top-0 w-[70%]  border-r h-full border-b ease-in-out duration-500 bg-black' : 'fixed left-[-100%] top-0 w-[60%] border-r h-full border-b font-serif' }>
+      <div className={nav ? 'fixed left-0 top-0 w-[70%]  border-r h-full border-b ease-in-out duration-500 bg-black z-10' : 'fixed left-[-100%] top-0 w-[60%] border-r h-full border-b font-serif' }>
         <h1 className='w-full text-3xl font-bold text-customGreen pt-[29px] pl-[50px] h-24'>Christian Paz</h1>
         <ul className='p-4 uppercase' onClick={!nav}>
           <li className='p-4 border-b hover:text-customGreen duration-1000'><Link href={"./about"}>About</Link></li>
