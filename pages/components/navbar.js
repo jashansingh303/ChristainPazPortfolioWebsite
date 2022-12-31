@@ -19,7 +19,6 @@ function NavBar() {
             <li className='p-4 hover:scale-125 duration-100 border-b'><Link href="./about">About</Link></li>
             <li className='p-4 hover:scale-125 duration-100 border-b'><Link href="./portfolio">Portfolio</Link></li>
             <li className='p-4 hover:scale-125 duration-100 border-b'><Link href="./contact">Contact</Link></li>
-            <li className='p-4 hover:scale-125 duration-100 border-b'><Link href="./image">image</Link></li>
           </ul>
 
 
