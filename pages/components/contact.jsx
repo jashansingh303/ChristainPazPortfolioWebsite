@@ -20,7 +20,7 @@ const ContactUs = () => {
   return (
     <div>
         <NavBar/>
-        <div className='text-xl pt-36 font-bold leading-10 lg:pt-36 '>
+        <div className='text-xl pt-10 font-bold leading-10 lg:pt-36 md:pt-30 '>
         <p className='text-center pt-10 pb-10 lg:text-7xl mg:text-[82px] text-[78px]  text-[#00df9a]'>Contact</p>
         <form ref={form} onSubmit={""} className="flex flex-col align-middle md:max-w-2xl sm:max-w-xl max-w-[300px] mx-auto ">
           <label>Name</label>
