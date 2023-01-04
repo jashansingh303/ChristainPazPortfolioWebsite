@@ -1,9 +1,10 @@
 import NavBar from "./navbar"
 import Image from 'next/image'
 import { useState } from "react"
+import { useRouter } from 'next/router'
 
 function AboutHero(){
-
+    const router = useRouter()
     const [nav, setNav] = useState(false)
 
     return(
