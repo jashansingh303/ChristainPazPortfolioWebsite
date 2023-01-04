@@ -21,8 +21,8 @@ function AboutHero(){
             </div>
             
             <div>
-                <button onClick={() => router.push('./')}
-                className={nav ? "bg-gray-900" : "lg:text-lg md:text-md sm:text-sm text-xs sm:p-3 bg-[#00df9a] rounded-3xl my-auto p-2 font-bold animate-bounce font-serif lg:ml-[190px] md:ml-[75px] ml-[40px] ml-[50px] mx-auto"}>PORTFOLIO
+                <button onClick={() => router.push('./portfolio')}
+                className={nav ? "bg-gray-900" : "lg:text-lg md:text-md sm:text-sm text-xs sm:p-3 bg-[#00df9a] rounded-3xl my-auto p-2 font-bold animate-bounce font-serif lg:ml-[190px] md:ml-[75px] ml-[40px] mx-auto"}>PORTFOLIO
                 </button>
             </div>
 
