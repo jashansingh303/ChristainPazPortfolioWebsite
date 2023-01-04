@@ -23,7 +23,7 @@ const images = [
 
 const size_definitions = {
 "large": "h-full object-cover col-span-2 row-span-2 lg:py-0 py-2 cursor-pointer",
-"small": "h-full object-cover lg:py-0 py-2 cursor-pointer"
+"small": "h-full object-cover lg:py-0 py-2 cursor-pointer   "
 }
 
 function Portfolio(){
